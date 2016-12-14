@@ -4,10 +4,9 @@ import requests
 certificate = '/Users/varsha/Desktop/conf/new/server-cert.pem'
 
 
-url_put = "https://localhost:4000/sensors/Ashwin/"
+url_put = "https://localhost:4000/sensors/Ashwin/Humidity Sensor/"
 data = {
-	'sensor_name':'Humidity Sensor',
-	'description':'%',
+	'value':70,
 	'token':"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJBc2h3aW4ifQ.EEAd5-CCojwnh7Ex3-WyCjJaQBCuYyS3Td3fKSivlgk"
 }
 
